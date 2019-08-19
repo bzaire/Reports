@@ -5,4 +5,5 @@
 
 ## Notebooks order:
   1 - search_3d_params.ipynb
+  
   2 - compare_chisqs.ipynb
