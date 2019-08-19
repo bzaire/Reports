@@ -6,4 +6,4 @@
 ## Notebooks order:
   1 - search_3d_params.ipynb
   
-  2 - compare_chisqs.ipynb
+  2 - compare_chisqs.ipynb (https://github.com/bzaire/Reports/blob/master/compare_chisqs.ipynb)
