@@ -19,6 +19,5 @@
   
   4 - search_DR.ipynb (https://github.com/bzaire/Reports/blob/master/search_DR.ipynb)
      
-     > Fix everything else to find the differential rotation parameters ($\beta$ and $\gamma$).
-  
+     > Fix everything else to find the differential rotation parameters (beta and gamma).
   
