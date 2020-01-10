@@ -1,0 +1,92 @@
+Do you want to make a magnetic image (y/n) : yes
+Do you want to read an old image file (y/n) : no
+Input ngrid, incl, vsin(i) and vrad : 3000 80 89.7 0
+Select type of image reconstruction (any combination of QMB) : B
+Type of reconstruction: 
+    0: unconstrained spherical harmonics
+    1: poloidal field plus toroidal field
+    2: generalised potential field
+    3: generalised force free field
+    4: potential field
+    5: linear force free field
+   -1: generalised potential field #2
+   -2: linear combination of LFF
+   -3: generalised potential field plus toroidal field
+   -4: generalised potential field plus toroidal field - last version
+    Generalised potential field plus toroidal field - last version
+Order of spherical harmonics expansion : 15
+Input default spot brightness : 1.000000
+What is a typical value for the magnetic field strength : 1000
+
+Beta and gamma for differential rotation (0 for default) : 0 0
+
+Name of file to read spectral data from : v471tau_04.ss
+Are profiles affected by moon pollution (y/n) : no
+Do you want to use the Mean observations (y/n) : yes
+Select Stokes parameters to use (any combination of IV) : V
+What is the largest phase smearing allowed : 1.000000
+What is the oversampling factor : 1
+
+Do you want to weight the spherical harmonics (y/n) : yes
+Enter value for L_fac (0 for default) : 0
+Input values for Caim and Maxit : 1.02 50
+
+           ChiSq         Entropy    <Bmod>    Test
+< 0> --  1.3301e+00   -2.519e+01      3.85   1.018
+< 1> --  1.1603e+00   -2.211e+02     34.14   0.001
+< 2> --  1.0955e+00   -8.103e+02     60.51   0.018
+< 3> --  1.0709e+00   -1.521e+03     78.04   0.159
+< 4> --  1.0482e+00   -2.850e+03    104.65   0.139
+< 5> --  1.0404e+00   -3.779e+03    117.95   0.343
+< 6> --  1.0338e+00   -4.955e+03    134.46   0.398
+< 7> --  1.0305e+00   -5.731e+03    142.94   0.513
+< 8> --  1.0277e+00   -6.634e+03    152.98   0.517
+< 9> --  1.0260e+00   -7.249e+03    157.94   0.601
+<10> --  1.0243e+00   -7.974e+03    164.56   0.575
+<11> --  1.0232e+00   -8.483e+03    167.90   0.644
+<12> --  1.0222e+00   -9.099e+03    172.89   0.608
+<13> --  1.0214e+00   -9.542e+03    175.48   0.669
+<14> --  1.0206e+00   -1.009e+04    179.67   0.629
+<15> --  1.0200e+00   -1.043e+04    181.42   0.668
+<16> --  1.0200e+00   -1.009e+04    177.82   0.334
+<17> --  1.0200e+00   -9.927e+03    175.63   0.291
+<18> --  1.0200e+00   -9.834e+03    174.77   0.163
+<19> --  1.0200e+00   -9.770e+03    173.95   0.158
+<20> --  1.0200e+00   -9.723e+03    173.64   0.091
+<21> --  1.0200e+00   -9.690e+03    173.26   0.093
+<22> --  1.0200e+00   -9.665e+03    173.18   0.055
+<23> --  1.0200e+00   -9.645e+03    172.99   0.057
+<24> --  1.0200e+00   -9.630e+03    172.98   0.034
+<25> --  1.0200e+00   -9.617e+03    172.87   0.037
+<26> --  1.0200e+00   -9.606e+03    172.89   0.022
+<27> --  1.0200e+00   -9.598e+03    172.84   0.024
+<28> --  1.0200e+00   -9.593e+03    172.89   0.015
+<29> --  1.0200e+00   -9.586e+03    172.85   0.016
+<30> --  1.0200e+00   -9.582e+03    172.90   0.010
+<31> --  1.0200e+00   -9.578e+03    172.88   0.011
+<32> --  1.0200e+00   -9.576e+03    172.93   0.007
+<33> --  1.0200e+00   -9.573e+03    172.92   0.008
+<34> --  1.0200e+00   -9.572e+03    172.98   0.005
+<35> --  1.0200e+00   -9.570e+03    172.98   0.005
+<36> --  1.0200e+00   -9.568e+03    173.01   0.003
+<37> --  1.0200e+00   -9.567e+03    173.02   0.004
+<38> --  1.0200e+00   -9.565e+03    173.05   0.002
+<39> --  1.0200e+00   -9.566e+03    173.05   0.001
+<40> --  1.0200e+00   -9.566e+03    173.05   0.002
+<41> --  1.0200e+00   -9.564e+03    173.05   0.001
+<42> --  1.0200e+00   -9.564e+03    173.06   0.002
+<43> --  1.0200e+00   -9.563e+03    173.06   0.001
+<44> --  1.0200e+00   -9.564e+03    173.07   0.002
+<45> --  1.0200e+00   -9.564e+03    173.08   0.001
+<46> --  1.0200e+00   -9.562e+03    173.07   0.002
+<47> --  1.0200e+00   -9.563e+03    173.08   0.000
+<48> --  1.0200e+00   -9.563e+03    173.12   0.003
+<49> --  1.0200e+00   -9.563e+03    173.11   0.001
+<50> --  1.0200e+00
+Exceeded 50 iterations
+
+Name of file to save brightness data to : v471tau_04_1_02.m1
+Do you want to save the synthetic spectra (y/n) : yes
+Name of file to save spectral data to : v471tau_04_1_02.s1
+Do you want to save the SHaDe coefficients (y/n) : yes
+Name of file to save mode coefficients to : v471tau_04_1_02.c1
