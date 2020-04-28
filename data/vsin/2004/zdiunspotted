@@ -1,0 +1,24 @@
+#!/bin/bash
+zdipot -b << aa
+y
+n
+10000 80 $1 0
+Q
+-4
+15
+1
+1000
+0 0
+v471tau_04.ss
+n
+y
+I
+1
+1
+y
+0
+1 1
+v471tau_04_unspotted.m1
+y
+$2
+aa
